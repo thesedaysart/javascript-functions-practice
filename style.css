@@ -143,12 +143,7 @@ section .container button:not(.drum) {
 } */
 
 #drumkit {
-  & .drum {
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  &.w {
+  & .w {
     background-image: url(assets/tom1.png);
   }
 
@@ -199,5 +194,7 @@ section .container button:not(.drum) {
     aspect-ratio: 1;
     text-align: center;
     background-color: var(--white);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
