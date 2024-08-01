@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript functions practice</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>JavaScript functions practice page</h1>
+    </header>
+
+    <section id="functionReturn">
+        <h2>Function with "return" used as a variable</h2>
+        <div class="container">
+            <div id="change">Amount of change goes here</div>
+        </div>
+    </section>
+
+    <section id="bmiCalculator">
+        <h2>BMI calculator</h2>
+        <div class="container">
+            <label for="bmiWeight">What is your weight?
+                <input id="bmiWeight" name="bmiWeight" type="text" placeholder="Fill in your weight in kg">
+            </label>
+            <label for="bmiHeight">What is your Height?
+                <input id="bmiHeight" name="bmiHeight" type="text" placeholder="Fill in your weight in cm">
+            </label>
+            <button id="bmiButton">Validate your data</button>
+            <div id="bmiResult"></div>
+        </div>
+    </section>
+
+    <section id="leapYearCalculator">
+        <h2>Leap year</h2>
+        <div class="container">
+            <label for="year">
+                Is<input type="text" id="year" name="year" placeholder="Enter a 4-digit year"> a leap year?
+            </label>
+            <button id="leapYearButton">Validate year</button>
+            <div id="leapYearAnswer"></div>
+        </div>
+    </section>
+
+    <section id="whosPaying">
+        <h2>Who's paying this time?</h2>
+        <div class="container">
+            <label for="names">
+                Enter a list of names: <input type="text" id="names" name="names"
+                    placeholder="Write the names separated bu a space">
+            </label>
+            <button id="whosPayingBtn">Find out who's paying</button>
+            <p id="whosPayingAnswer"></p>
+        </div>
+    </section>
+
+    <section id="whileLoop">
+        <h2>While loop practice</h2>
+        <h3>Bottles of beer on the wall</h3>
+        <div class="container">
+            <label for="bottles">
+                How many bottles do you want to start with? <input type="text" name="bottles" id="bottles"
+                    placeholder="Enter a number">
+            </label>
+            <button id="bottlesBtn">Click to generate lyrics</button>
+            <p id="bottlesLyrics"></p>
+        </div>
+    </section>
+
+    <section id="fibonacciSequence">
+        <h2>Fibonacci sequence generator</h2>
+        <div class="container">
+            <label for="fibonacci">
+                How many numbers do you need in the sequence? <input type=" text" name="fibonacci" id="fibonacci">
+            </label>
+            <button id="fibonacciButton">Validate</button>
+            <p id="fibonacciAnswer"></p>
+        </div>
+    </section>
+
+    <section id="dicee">
+        <h2>Game of dice</h2>
+        <h3 id="diceGameResult">Refresh page to play</h3>
+        <div class="container">
+            <div class="dice">
+                <p>Player 1</p>
+                <img class="img1" src="assets/dice6.png" />
+            </div>
+            <div class="dice">
+                <p>Player 2</p>
+                <img class="img2" src="assets/dice6.png" />
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="higherOrderFunctions">
+        <h2>Higher order functions</h2>
+        <div class="container">
+            <label for="Number1">
+                First number: <input type="text" id="number1" name="number1">
+            </label>
+            <label for="operator">Operation:
+                <select name="operator" id="operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="/">/</option>
+                    <option value="*">x</option>
+                </select>
+            </label>
+            <label for="Number2">
+                Second number: <input type="text" id="number2" name="number2">
+            </label>
+            <button id="equalSign">=</button>
+            <p id="calculatorAnswer"></p>
+             <div class="addition">
+                <h3>Add two numbers:</h3>
+                <div class="operation">
+                    <label for="addingNumber1">
+                        <input type="text" id="addingNumber1" name="addingNumber1">
+                    </label>
+                    <p class="plus operator">+</p>
+                    <label for="addingNumber2">
+                        <input type="text" id="addingNumber2" name="addingNumber2">
+                    </label>
+                    <button id="sumEqualSign">=</button>
+                    <p id="sumAnswer"></p>
+                </div>
+            </div>
+            <div class="multiplication">
+                <h3>Multiply two numbers:</h3>
+                <div class="operation">
+                    <label for="multiplyingNumber1">
+                        <input type="text" id="multiplyingNumber1" name="multiplyingNumber1">
+                    </label>
+                    <p class="times operator">x</p>
+                    <label for="multiplyingNumber2">
+                        <input type="text" id="multiplyingNumber2" name="multiplyingNumber2">
+                    </label>
+                    <button id="multiplyEqualSign">=</button>
+                    <p id="multiplyAnswer"></p>
+                </div>
+            </div> 
+        </div>
+    </section> -->
+
+    <section id="drumkit">
+        <h2 id="title">Drumkit</h2>
+        <div class="container">
+            <div class="set">
+                <button class="w drum">w</button>
+                <button class="a drum">a</button>
+                <button class="s drum">s</button>
+                <button class="d drum">d</button>
+                <button class="j drum">j</button>
+                <button class="k drum">k</button>
+                <button class="l drum">l</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
